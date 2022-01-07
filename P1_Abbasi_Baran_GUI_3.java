@@ -20,28 +20,8 @@ import javafx.scene.text.Font;
 import javafx.stage.Stage;
 
 /**
- * Baran Abbasi P1 Reflection
- * Lab took ~60 minutes
- * @author baran_abbasi
- * 
- * The only thing I had to do to complete my calculator
- * is doing the actual calculation, which seemed a lot harder
- * than it actually was. To do my calculation, I made several
- * helper methods. One was calculate(String ..) which is called
- * after a user presses the = button and takes a string which
- * contains the equation that the computer has to calculate. 
- * The method then calls hasError which returns true if the equation
- * has an error, like two consecutive non-digit values or a non-digit
- * at the beginning or the end of the equation. If it returns true
- * the message "Error" will show up on the user's calculator screen.
- * If there is error, then the method calls on solve(String ..) which 
- * actually solves the equation by (with the help of other methods) solves
- * the equation from left to right with no regard of the order of operations.
- * For example: 1 + 2 • 4 would become 3 • 4 which would then return 12 to the user
- * screen instead of 9, which would have been the answer by following the order
- * of operations. By solving the equation from left to right, it became a lot
- * easier, and writing the rest of the code was pretty straight forward from there.
- *
+ * this codes a simple 4-function calculator which solves equations from left to right and has
+ * a customizable color option.
  */
 
 public class P1_Abbasi_Baran_GUI_3 extends Application{
